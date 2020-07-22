@@ -17,13 +17,13 @@ function draw() {
 if(car.collide(wall)  )
 {
     car.velocityX = 0;
-  if (deformation > 180){
+  if (deformation >= 180){
   car.shapeColor = color(255,0,0);
 } 
   else if (deformation < 180 && deformation > 100){
     car.shapeColor = color(230, 230, 0);
   }
-  else if (deformation < 100){
+  else if (deformation <= 100){
   car.shapeColor = color(0, 250, 0);
     }
   } 
