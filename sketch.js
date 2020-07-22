@@ -23,7 +23,7 @@ if(car.collide(wall)  )
   else if (deformation < 180 && deformation > 100){
     car.shapeColor = color(230, 230, 0);
   }
-  else if (deformation < 90){
+  else if (deformation < 100){
   car.shapeColor = color(0, 250, 0);
     }
   } 
